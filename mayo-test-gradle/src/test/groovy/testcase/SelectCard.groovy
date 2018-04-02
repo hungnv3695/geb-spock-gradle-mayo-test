@@ -40,7 +40,7 @@ class SelectCard extends GebReportingSpec {
 		when:
 		select_delivery_year.selected = date[Calendar.YEAR]
 		select_delivery_month.selected = date[Calendar.MONTH] + 2
-		select_delivery_day.selected = date[Calendar.DATE] - 2
+		select_delivery_day.selected = date[Calendar.DATE]
 		select_delivery_time.selected = "1"
 		delivery_next_btn.click()
 		
@@ -94,7 +94,7 @@ class SelectCard extends GebReportingSpec {
 		when:
 		select_delivery_year.selected = date[Calendar.YEAR]
 		select_delivery_month.selected = date[Calendar.MONTH] + 2
-		select_delivery_day.selected = date[Calendar.DATE] - 2
+		select_delivery_day.selected = date[Calendar.DATE]
 		select_delivery_time.selected = "1"
 		delivery_next_btn.click()
 		
@@ -151,7 +151,7 @@ class SelectCard extends GebReportingSpec {
 		when:
 		select_delivery_year.selected = date[Calendar.YEAR]
 		select_delivery_month.selected = date[Calendar.MONTH] + 2
-		select_delivery_day.selected = date[Calendar.DATE] - 2
+		select_delivery_day.selected = date[Calendar.DATE]
 		select_delivery_time.selected = "1"
 		delivery_next_btn.click()
 		
