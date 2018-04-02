@@ -53,8 +53,8 @@
       <file leaf-file-name="PaymentTest.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+            <state relative-caret-position="256">
+              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               <folding>
                 <element signature="e#18#51#0" expanded="true" />
               </folding>
@@ -569,7 +569,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.mayo-test-gradle [build]">
+  <component name="RunManager" selected="JUnit.PaymentTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -613,6 +613,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mayo-test-gradle_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.PaymentTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="SelectAddressTest.Select address page: edit addressee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mayo-test-gradle_test" />
       <extension name="coverage">
@@ -626,29 +649,6 @@
       <option name="PACKAGE_NAME" value="testcase" />
       <option name="MAIN_CLASS_NAME" value="testcase.SelectAddressTest" />
       <option name="METHOD_NAME" value="Select address page: edit addressee" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SelectAddressTest.Select address page: select another addressee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mayo-test-gradle_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.SelectAddressTest" />
-      <option name="METHOD_NAME" value="Select address page: select another addressee" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -740,18 +740,18 @@
     <list>
       <item itemvalue="JUnit.run test" />
       <item itemvalue="JUnit.testcase in mayo-test-gradle_test" />
-      <item itemvalue="JUnit.SelectAddressTest.Select address page: select another addressee" />
       <item itemvalue="JUnit.SelectAddressTest.Select address page: edit addressee" />
       <item itemvalue="JUnit.ConfirmTest" />
       <item itemvalue="Gradle.mayo-test-gradle [build]" />
+      <item itemvalue="JUnit.PaymentTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentTest" />
         <item itemvalue="Gradle.mayo-test-gradle [build]" />
         <item itemvalue="JUnit.testcase in mayo-test-gradle_test" />
         <item itemvalue="JUnit.ConfirmTest" />
         <item itemvalue="JUnit.SelectAddressTest.Select address page: edit addressee" />
-        <item itemvalue="JUnit.SelectAddressTest.Select address page: select another addressee" />
       </list>
     </recent_temporary>
   </component>
@@ -768,14 +768,11 @@
       <workItem from="1522381284530" duration="3219000" />
       <workItem from="1522384699725" duration="8530000" />
       <workItem from="1522633152965" duration="6439000" />
-      <workItem from="1522660940298" duration="386000" />
+      <workItem from="1522660940298" duration="1232000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testcase_in_mayo-test-gradle_test - 2018.03.30 at 14h 33m 30s.xml">
-      <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SelectAddressTest_Select_address_page__edit_addressee - 2018.03.30 at 14h 36m 20s.xml">
       <configuration name="SelectAddressTest.Select address page: edit addressee" configurationId="JUnit" />
     </history-entry>
@@ -803,9 +800,12 @@
     <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.02 at 10h 46m 45s.xml">
       <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PaymentTest - 2018.04.02 at 16h 32m 15s.xml">
+      <configuration name="PaymentTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18574000" />
+    <option name="totallyTimeSpent" value="19420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,6 +822,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.23701298" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
@@ -829,12 +830,12 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Run" order="10" weight="0.29904053" />
+      <window_info active="true" anchor="right" id="Run" order="10" visible="true" weight="0.29904053" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891776" visible="true" weight="0.15245202" />
-      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.28787878" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891776" visible="true" weight="0.15245202" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.28787878" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Gradle" order="0" weight="0.32995737" />
       <window_info id="Structure" order="1" sideWeight="0.50108224" side_tool="true" weight="0.18443497" />
@@ -843,7 +844,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.23701298" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -1164,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+        <state relative-caret-position="256">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="e#18#51#0" expanded="true" />
           </folding>
