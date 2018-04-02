@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcase.DeliveryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-02T04:36:22" hostname="VPC005" time="13.96">
+  <properties/>
+  <testcase name="Delivery screen: check function button" classname="testcase.DeliveryTest" time="6.592"/>
+  <testcase name="Delivery screen: select specify addressee for each item" classname="testcase.DeliveryTest" time="3.059"/>
+  <testcase name="Delivery screen: don't input year-month-day and time" classname="testcase.DeliveryTest" time="4.309"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

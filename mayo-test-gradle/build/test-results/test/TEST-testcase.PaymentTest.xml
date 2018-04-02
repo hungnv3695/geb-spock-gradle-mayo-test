@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcase.PaymentTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-02T04:36:37" hostname="VPC005" time="17.619">
+  <properties/>
+  <testcase name="Payment screen: next button when choose card" classname="testcase.PaymentTest" time="7.22"/>
+  <testcase name="Payment screen: next button when choose add new card" classname="testcase.PaymentTest" time="5.437"/>
+  <testcase name="Payment screen: back button comeback delivery screen" classname="testcase.PaymentTest" time="4.962"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

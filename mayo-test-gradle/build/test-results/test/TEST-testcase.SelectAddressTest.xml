@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcase.SelectAddressTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-02T04:36:57" hostname="VPC005" time="13.937">
+  <properties/>
+  <testcase name="Select address page: test button go to add new addressee page" classname="testcase.SelectAddressTest" time="4.8"/>
+  <testcase name="Select address page: edit addressee" classname="testcase.SelectAddressTest" time="4.422"/>
+  <testcase name="Select address page: select another addressee" classname="testcase.SelectAddressTest" time="4.715"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
