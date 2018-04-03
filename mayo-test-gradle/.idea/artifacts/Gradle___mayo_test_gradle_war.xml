@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : mayo-test-gradle.war">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="mayo-test-gradle.war">
+      <element id="artifact" artifact-name="Gradle : mayo-test-gradle.war (exploded)" />
+    </root>
+  </artifact>
+</component>

@@ -50,13 +50,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PaymentTest.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PaymentTest.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
               <folding>
                 <element signature="e#18#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_jenkins.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_jenkins.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +95,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\nguyenviet.hung\.gradle\wrapper\dists\gradle-4.3-all\2c1rgv6vofd95kl0ugolfeu5r\gradle-4.3" />
+        <entry key="$PROJECT_DIR$" value="C:\gradle-4.3" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -203,6 +224,11 @@
                 <option name="name" value="groovydoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="war" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'mayo-test-gradle'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
@@ -264,9 +290,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6089552091611" />
+        <entry key="$PROJECT_DIR$" value="6089898475814" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2135500804" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2046541692" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="407797137" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2709463725" />
       </map>
@@ -454,7 +480,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/testcase/CartTest1.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/LibraryTest.groovy" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/groovy/page/LoginPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/page/ClientPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/page/CompletePage.groovy" />
@@ -475,6 +500,8 @@
         <option value="$PROJECT_DIR$/src/test/groovy/testcase/SelectCard.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/testcase/ConfirmTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy" />
+        <option value="$PROJECT_DIR$/test_jenkins.txt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -496,9 +523,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -509,7 +535,24 @@
             <path>
               <item name="mayo-test-gradle" type="b2602c69:ProjectViewProjectNode" />
               <item name="mayo-test-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mayo-test-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mayo-test-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mayo-test-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mayo-test-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mayo-test-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mayo-test-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="mayo-test-gradle" type="b2602c69:ProjectViewProjectNode" />
@@ -532,10 +575,15 @@
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mayo-test-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentTest">
+  <component name="RunManager" selected="JUnit.testcase in mayo-test-gradle_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -747,9 +795,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testcase in mayo-test-gradle_test" />
         <item itemvalue="JUnit.PaymentTest" />
         <item itemvalue="Gradle.mayo-test-gradle [build]" />
-        <item itemvalue="JUnit.testcase in mayo-test-gradle_test" />
         <item itemvalue="JUnit.ConfirmTest" />
         <item itemvalue="JUnit.SelectAddressTest.Select address page: edit addressee" />
       </list>
@@ -768,17 +816,12 @@
       <workItem from="1522381284530" duration="3219000" />
       <workItem from="1522384699725" duration="8530000" />
       <workItem from="1522633152965" duration="6439000" />
-      <workItem from="1522660940298" duration="1232000" />
+      <workItem from="1522660940298" duration="3484000" />
+      <workItem from="1522719413381" duration="4854000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelectAddressTest_Select_address_page__edit_addressee - 2018.03.30 at 14h 36m 20s.xml">
-      <configuration name="SelectAddressTest.Select address page: edit addressee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testcase_in_mayo-test-gradle_test - 2018.03.30 at 14h 38m 24s.xml">
-      <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testcase_in_mayo-test-gradle_test - 2018.03.30 at 14h 42m 44s.xml">
       <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
     </history-entry>
@@ -803,9 +846,15 @@
     <history-entry file="PaymentTest - 2018.04.02 at 16h 32m 15s.xml">
       <configuration name="PaymentTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.03 at 09h 45m 09s.xml">
+      <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.03 at 11h 38m 42s.xml">
+      <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19420000" />
+    <option name="totallyTimeSpent" value="26526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,32 +867,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.23701298" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="right" id="Run" order="10" visible="true" weight="0.29904053" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891776" visible="true" weight="0.15245202" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.28787878" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.28787878" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Gradle" order="0" weight="0.32995737" />
       <window_info id="Structure" order="1" sideWeight="0.50108224" side_tool="true" weight="0.18443497" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.23701298" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Run" order="10" visible="true" weight="0.29904053" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891776" visible="true" weight="0.15405117" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -871,6 +921,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding>
+            <element signature="e#18#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_jenkins.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -892,9 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1751">
           <caret line="104" column="58" selection-start-line="104" selection-start-column="58" selection-end-line="104" selection-end-column="58" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,9 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
           <caret line="109" column="38" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,9 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="153" column="58" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -932,9 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="95" column="4" lean-forward="true" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,9 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="153" column="58" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,9 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1751">
           <caret line="104" column="58" selection-start-line="104" selection-start-column="58" selection-end-line="104" selection-end-column="58" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,19 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
           <caret line="109" column="38" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,27 +1183,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="106" column="40" lean-forward="true" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/classes/groovy/test/testcase/DeliveryTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding>
-            <element signature="e#0#54433#0" expanded="true" />
+            <element signature="e#18#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy">
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_jenkins.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
-            <element signature="e#18#51#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
