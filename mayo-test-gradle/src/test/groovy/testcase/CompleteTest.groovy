@@ -2,13 +2,14 @@ package testcase
 
 import geb.spock.GebReportingSpec
 import page.*
-
+import spock.lang.*
+@Ignore
 class CompleteTest extends GebReportingSpec {
 	
 	def setup() {
 		browser.config.autoClearCookies = false
 	}
-	
+	@Ignore
 	def "Complete screen: back to top page" () {
 		given:
 		to LoginPage

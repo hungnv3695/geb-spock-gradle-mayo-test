@@ -2,7 +2,8 @@ package testcase
 
 import geb.spock.GebReportingSpec
 import page.*
-
+import spock.lang.*
+@Ignore
 class ConfirmTest extends GebReportingSpec {
 	
 	def setup() {

@@ -3,7 +3,8 @@ package testcase
 import geb.spock.GebReportingSpec
 import page.*
 import page.CartPage
-
+import spock.lang.*
+@Ignore
 class SelectAddressTest extends GebReportingSpec {
 	def setup() {
 		browser.config.autoClearCookies = false
