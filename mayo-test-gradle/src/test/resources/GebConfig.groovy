@@ -1,4 +1,4 @@
-package test.resources
+package resources
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.firefox.FirefoxDriver
@@ -6,7 +6,7 @@ import geb.report.*
 
 // default driver
 System.setProperty('webdriver.chrome.driver', "src/test/resources/chromedriver.exe")
-driver = {new ChromeDriver()}
+driver = { new ChromeDriver() }
 
 environments {
 	chrome {
@@ -17,6 +17,8 @@ environments {
 	}
 
 	firefox {
+		def ffDriver = 'src/test/resources/geckodriver.exe'
+		System.setProperty('webdriver.Firefox.driver', ffDriver)
         driver = { new FirefoxDriver() }
         driver.manage().window().maximize()
 	}
