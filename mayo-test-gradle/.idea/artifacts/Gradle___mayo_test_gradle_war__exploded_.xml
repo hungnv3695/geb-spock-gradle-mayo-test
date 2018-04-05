@@ -27,8 +27,8 @@
           <element id="library" level="project" name="Gradle: org.jodd:jodd-lagarto:3.7.1" />
           <element id="library" level="project" name="Gradle: org.jodd:jodd-core:3.7.1" />
           <element id="library" level="project" name="Gradle: org.jodd:jodd-log:3.7.1" />
-          <element id="file-copy" path="C:/gradle-4.3/lib/groovy-all-2.4.12.jar" />
-          <element id="file-copy" path="C:/gradle-4.3/lib/gradle-installation-beacon-4.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-4.3-all/2c1rgv6vofd95kl0ugolfeu5r/gradle-4.3/lib/groovy-all-2.4.12.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-4.3-all/2c1rgv6vofd95kl0ugolfeu5r/gradle-4.3/lib/gradle-installation-beacon-4.3.jar" />
         </element>
       </element>
     </root>
