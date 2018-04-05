@@ -74,7 +74,7 @@
       <file leaf-file-name="SelectCard.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/SelectCard.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="51">
               <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
@@ -83,11 +83,8 @@
       <file leaf-file-name="GebConfig.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#23#69#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,7 +92,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="578">
               <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -134,8 +131,11 @@
       <file leaf-file-name="CartTest.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/CartTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="391">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding>
+                <element signature="e#18#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -568,7 +568,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -634,8 +634,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -670,7 +670,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testcase in mayo-test-gradle_test">
+  <component name="RunManager" selected="JUnit.All in mayo-test-gradle_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -690,6 +690,23 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+    </configuration>
+    <configuration name="All in mayo-test-gradle_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mayo-test-gradle_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ConfirmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mayo-test-gradle_test" />
@@ -728,29 +745,6 @@
       <option name="MAIN_CLASS_NAME" value="testcase.PaymentTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SelectAddressTest.Select address page: edit addressee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mayo-test-gradle_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.SelectAddressTest" />
-      <option name="METHOD_NAME" value="Select address page: edit addressee" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -841,18 +835,18 @@
     <list>
       <item itemvalue="JUnit.run test" />
       <item itemvalue="JUnit.testcase in mayo-test-gradle_test" />
-      <item itemvalue="JUnit.SelectAddressTest.Select address page: edit addressee" />
       <item itemvalue="JUnit.ConfirmTest" />
       <item itemvalue="Gradle.mayo-test-gradle [build]" />
       <item itemvalue="JUnit.PaymentTest" />
+      <item itemvalue="JUnit.All in mayo-test-gradle_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in mayo-test-gradle_test" />
         <item itemvalue="JUnit.testcase in mayo-test-gradle_test" />
         <item itemvalue="JUnit.PaymentTest" />
         <item itemvalue="Gradle.mayo-test-gradle [build]" />
         <item itemvalue="JUnit.ConfirmTest" />
-        <item itemvalue="JUnit.SelectAddressTest.Select address page: edit addressee" />
       </list>
     </recent_temporary>
   </component>
@@ -872,17 +866,12 @@
       <workItem from="1522660940298" duration="3484000" />
       <workItem from="1522719413381" duration="5605000" />
       <workItem from="1522825521544" duration="3081000" />
-      <workItem from="1522835029339" duration="3918000" />
+      <workItem from="1522835029339" duration="4504000" />
+      <workItem from="1522896428469" duration="2404000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.04 at 16h 53m 59s.xml">
-      <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.04 at 16h 54m 28s.xml">
-      <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.04 at 16h 54m 45s.xml">
       <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
     </history-entry>
@@ -907,9 +896,15 @@
     <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.04 at 17h 33m 29s.xml">
       <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testcase_in_mayo-test-gradle_test - 2018.04.05 at 11h 35m 06s.xml">
+      <configuration name="testcase in mayo-test-gradle_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_mayo-test-gradle_test - 2018.04.05 at 11h 53m 06s.xml">
+      <configuration name="All in mayo-test-gradle_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34276000" />
+    <option name="totallyTimeSpent" value="37266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -922,6 +917,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -943,7 +939,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Run" order="10" visible="true" weight="0.31023455" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900432" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891776" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891776" visible="true" weight="0.18123667" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32900432" />
       <window_info anchor="right" id="Gradle" order="0" weight="0.32995737" />
@@ -976,6 +972,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/PaymentTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1290,13 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/CartTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/CompleteTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1337,14 +1333,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/SelectCard.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="51">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="578">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1352,13 +1348,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/testcase/CartTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#18#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#23#69#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
