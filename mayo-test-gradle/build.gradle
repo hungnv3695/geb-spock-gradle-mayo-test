@@ -36,7 +36,7 @@ dependencies {
     )
 
     testCompile group: 'org.gebish', name: 'geb-spock', version:'2.1'
-    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version:'3.0.0'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version:'3.11.0'
     testCompile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.11.0'
     testCompile group: 'org.seleniumhq.selenium', name: 'selenium-support', version:'3.11.0'
     testCompile group: 'org.slf4j', name: 'slf4j-simple', version:'1.7.13'
