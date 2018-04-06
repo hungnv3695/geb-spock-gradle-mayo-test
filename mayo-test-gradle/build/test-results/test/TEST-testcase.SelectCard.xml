@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testcase.SelectCard" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-03T02:48:44" hostname="VPC005" time="19.885">
-  <properties/>
-  <testcase name="Select cart screen: back button" classname="testcase.SelectCard" time="7.351"/>
-  <testcase name="Select cart screen: next button" classname="testcase.SelectCard" time="6.917"/>
-  <testcase name="Select cart screen: next button with no input card's info" classname="testcase.SelectCard" time="5.617"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

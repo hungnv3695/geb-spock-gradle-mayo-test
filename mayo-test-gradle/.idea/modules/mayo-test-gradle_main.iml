@@ -188,7 +188,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.3-all/2c1rgv6vofd95kl0ugolfeu5r/gradle-4.3/lib/groovy-all-2.4.12.jar!/" />
+          <root url="jar://C:/gradle-4.3/lib/groovy-all-2.4.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -197,7 +197,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.3-all/2c1rgv6vofd95kl0ugolfeu5r/gradle-4.3/lib/gradle-installation-beacon-4.3.jar!/" />
+          <root url="jar://C:/gradle-4.3/lib/gradle-installation-beacon-4.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -206,11 +206,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.3-all/2c1rgv6vofd95kl0ugolfeu5r/gradle-4.3/lib/gradle-installation-beacon-4.3.jar!/" />
+          <root url="jar://C:/gradle-4.3/lib/gradle-installation-beacon-4.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.3-all/2c1rgv6vofd95kl0ugolfeu5r/gradle-4.3/src/installation-beacon" />
+          <root url="file://C:/gradle-4.3/src/installation-beacon" />
         </SOURCES>
       </library>
     </orderEntry>
