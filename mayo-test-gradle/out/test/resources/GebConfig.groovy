@@ -18,7 +18,7 @@ environments {
 
 	firefox {
 		def ffDriver = 'src/test/resources/geckodriver.exe'
-		System.setProperty('webdriver.Firefox.driver', ffDriver)
+		System.setProperty('webdriver.gecko.driver', ffDriver)
         driver = { new FirefoxDriver() }
         driver.manage().window().maximize()
 	}
@@ -35,3 +35,4 @@ waiting {
 
 reportsDir = "target/geb-reports"
 reportOnTestFailureOnly = true
+
