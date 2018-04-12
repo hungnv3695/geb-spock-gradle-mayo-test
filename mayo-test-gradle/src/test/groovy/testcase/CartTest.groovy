@@ -3,7 +3,7 @@ package testcase
 import geb.spock.GebReportingSpec
 import spock.lang.*
 import page.*
-
+@Ignore
 class CartTest extends GebReportingSpec {
 
     def setup() {
@@ -36,7 +36,7 @@ class CartTest extends GebReportingSpec {
         then: "location at indexPage now"
         assert waitFor{at IndexPage}
     }
-    @Ignore
+
     def "Cart screen: check to go purchase procedure button" () {
         given: "go to index page"
         to IndexPage
@@ -58,7 +58,7 @@ class CartTest extends GebReportingSpec {
         then: "location at delevery page now"
         assert waitFor{at DeliveryPage}
     }
-    @Ignore
+
     def "Cart screen: delete one product in cart when have one product in cart" () {
         given: "go to index page"
         to IndexPage
@@ -99,7 +99,6 @@ class CartTest extends GebReportingSpec {
         assert !form1
     }
 
-    @Ignore
     def "Cart screen: check recalculation" () {
         given: "go to index page"
         to IndexPage

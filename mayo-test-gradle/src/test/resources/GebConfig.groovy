@@ -5,12 +5,12 @@ import org.openqa.selenium.firefox.FirefoxDriver
 import geb.report.*
 
 // default driver
-System.setProperty('webdriver.chrome.driver', "src/test/resources/chromedriver")
+System.setProperty('webdriver.chrome.driver', "src/test/resources/chromedriver.exe")
 driver = { new ChromeDriver() }
 
 environments {
 	chrome {
-		def chromeDriver = 'src/test/resources/chromedriver'
+		def chromeDriver = 'src/test/resources/chromedriver.exe'
 		System.setProperty('webdriver.chrome.driver', chromeDriver)
 		driver = { new ChromeDriver() }
 		driver.manage().window().maximize()
